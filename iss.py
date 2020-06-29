@@ -69,7 +69,7 @@ def main():
 
     # Current coordinates of ISS
     lat, lon = current_coordinates()
-    print('Current ISS coordinates: lat={:.02f} lon={:.02f}'.format(lat, lon))
+    print('Current ISS coordinates: lat={} lon={}'.format(lat, lon))
 
     # Create and display ISS on world map
     world = None
